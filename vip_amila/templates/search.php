@@ -15,7 +15,7 @@
 <div>&nbsp;</div>
 <div>
   <!-- begin search -->
-  <div id="search" style="z-index: 50000">
+  <div id="search" style="z-index: 5000">
   <form name="search" action="index.php" method="POST">
     <input type="hidden" name="module" value="search" />
     <input type="hidden" name="task" value="search" />

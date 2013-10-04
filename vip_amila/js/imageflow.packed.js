@@ -40,10 +40,5 @@ eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a
 domReady(function()
 {
 	var instanceOne = new ImageFlow();
-	instanceOne.init({
-	  ImageFlowID:'myImageFlow',
-      startAnimation: true,
-       imageFocusM: 1.4,
-                         startID:  3 
-    });
+	instanceOne.init({ ImageFlowID:'myImageFlow' });
 });
