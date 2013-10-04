@@ -13,7 +13,12 @@
         var slider = $('#slider').leanSlider({
             directionNav: '#slider-direction-nav',
             controlNav: '#slider-control-nav'
-        });        
+        });
+
+
+
+
+
     });
     </script>
 
@@ -33,9 +38,12 @@
 <?php
 include 'templates/search.php';
 ?>
-
-<h1 class="center">TOP EVENTS</h1>
-
+<p>&nbsp;</p>
+             <div class="imgflowBackground">
+<div class="h1wrap">
+<h1 class="special">TOP EVENTS</h1>
+</div>
+        <p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p>
 <div id="myImageFlow" class="imageflow" style="top: -60px;">
   <img src="images/01.jpg" alt="img 1" width="400" height="300"  /> 
   <img src="images/02.jpg" alt="img 2" width="400" height="300"  />
@@ -45,6 +53,11 @@ include 'templates/search.php';
   <img src="images/06.jpg" alt="img 6" width="400" height="300"  /> 
 </div>
 
+</div>
+
+<div class="h1wrap">
+<h1 class="special">GET EMAIL ALERTS</h1>
+</div>
 <div id="newsletter">
   <div class="txt">Enter email for London&#39;s best night out alerts!</div>
   <div>

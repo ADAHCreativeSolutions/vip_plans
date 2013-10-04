@@ -13,7 +13,7 @@
     
         // Defaults
         var defaults = {
-            pauseTime: 4000,
+            pauseTime: 8000,
             pauseOnHover: true,
             startSlide: 0,
             directionNav: '',

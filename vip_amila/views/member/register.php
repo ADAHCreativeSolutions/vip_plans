@@ -1,7 +1,13 @@
-<h1 class="center">REGISTER</h1>
+
+
+<h1>REGISTER</h1>
+
 <div>&nbsp;</div>
 <p>Please use this page to register with ViPlans. Registered users will receive the free newsletter and can submit work to the Feed section of this site. If you are a magazine subscriber, please register in order to access exclusive content on the site, including articles from the current issue of VIPlans.</p>
 <div>&nbsp;</div>
+
+<H2>Create An Account</H2>
+<p>* all the fields are mandatory</p>
 <div id="registration">
   <form id="RegisterUserForm" action="index.php" method="post">
     <input id="module" name="module" type="hidden" class="text" value="member" />
@@ -18,10 +24,7 @@
       ?>
       <div class="tableLike contact-form" style="width:100%">
         <div class="tableRow">
-          <div class="normCell" style="width:100%;text-align: center;"><h4>Create an account</h4></div>
-        </div>
-        <div class="tableRow">
-          <div class="normCell" style="width:100%;">* all the fields are mandatory</div>
+          <div class="normCell" style="width:100%;"></div>
         </div>
         <div class="tableRow">
           <div class="normCell right-column" style="width:27%">Name</div>
@@ -49,11 +52,11 @@
           <div class="normCell" style="width:69%"><input id="re-password" name="password" class="text" type="password" onkeyup="passValidation(this.value);" placeholder="confirm password"  required /><br /><span class="form-error" id="err_confirm_password"></span></div>
         </div>
         <div class="tableRow">
-          <div class="normCell right-column" style="width:27%">&nbsp;</div>
-          <div class="normCell" style="width:4%">&nbsp;</div>
+
+                                 <div class="normCell right-column" style="width:27%"></div>                                                          <div class="normCell" style="width:4%">&nbsp;</div>  
           <div class="normCell" style="width:69%; text-align: center;">
-            <input type="submit" id="button3" class="reg-button" name="submit" value="Register" />
-            <input type="reset" id="reset2" class="reg-button" name="reset" value="Reset" />
+            <input type="submit" id="button3" class="reg-button" name="submit" value="  REGISTER  " />
+            <input type="reset" id="reset2" class="reg-button" name="reset" value="  CLEAR  " />
           </div>
         </div>
       </div>     

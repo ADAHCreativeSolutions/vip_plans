@@ -1,5 +1,7 @@
-<div class="margin"></div>
-<h1>Venues</h1>
+<div class="h1wrap">
+<h1 class="special">VENUES</h1>
+</div>
+
 <div>&nbsp;</div>
 <?php
 
