@@ -1,5 +1,5 @@
 <img src="images/banner-01.png" alt="" />
-                    <div>&nbsp;</div>     
+                    <div>&nbsp;</div>
 <h1>The History Of VIPLANS.COM</h1>
 <div>&nbsp;</div>
 <p>VIPlans.com - the most comprehensive guide to pubs, night clubs and bars in England and Wales.</p>
@@ -12,6 +12,6 @@ All our reviews are independent and we tell it like it is!</p>
 
 <h1>VIPlans Saturday Night Showcase</h1>
 <div>&nbsp;</div>
-<p>Saturday nights showcase underground DJ talent, internationally-renowned electronic music legends, and accomplished live acts. Its playlists are dedicated to cutting-edge house, techno, electro, disco, dub-technoâ€¦and anything else that fits within the confines of the nightâ€™s future-forward and ever-evolving programming. </p>
+<p>Saturday nights showcase underground DJ talent, internationally-renowned electronic music legends, and accomplished live acts. Its playlists are dedicated to cutting-edge house, techno, electro, disco, dub-technoâ€¦and anything else that fits within the confines of the nights future-forward and ever-evolving programming. </p>
 <div>&nbsp;</div>
 <div>&nbsp;</div>
