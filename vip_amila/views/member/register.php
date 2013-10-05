@@ -23,9 +23,7 @@
       }
       ?>
       <div class="tableLike contact-form" style="width:100%">
-        <div class="tableRow">
-          <div class="normCell" style="width:100%;"></div>
-        </div>
+
         <div class="tableRow">
           <div class="normCell right-column" style="width:27%">Name</div>
           <div class="normCell" style="width:4%">&nbsp;</div>

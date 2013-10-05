@@ -1,3 +1,5 @@
+<img src="images/banner-01.png" alt="" />
+                    <div>&nbsp;</div>     
 <h1>The History Of VIPLANS.COM</h1>
 <div>&nbsp;</div>
 <p>VIPlans.com - the most comprehensive guide to pubs, night clubs and bars in England and Wales.</p>

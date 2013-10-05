@@ -296,6 +296,9 @@ transition:.5s;
 	float:right;
 	border-radius: 0 0 0 0;
 }
+#navigation li:last-child a{
+  padding: 11px 42px 11px 52px;
+  }
 
 /* navigation End ------------------------------------------------*/
 
@@ -607,11 +610,12 @@ input:checked + .slide-container .nav label {
 }
 input.text {
 
-	font-size: 14px;
-	width: 270px;
-	padding: 5px 10px 5px 10px;
+	font-size: 15px;
+	width: 300px;
+	padding: 12px 20px;
+    font-family: 'Roboto', sans-serif;
 
-	
+
 	color:#333;
 
 }
@@ -885,39 +889,19 @@ border-bottom-left-radius: 5px;
 	padding: 20px;
 }
 input.textarea {
-	-webkit-border-radius: 15px;
-	-moz-border-radius: 15px;
-	border-radius: 15px;
-	border:solid 1px #444;
-	font-size: 14px;
-	width: 270px;
-	padding: 7px 8px 7px 30px;
-	-moz-box-shadow: 0px 1px 0px #777;
-	-webkit-box-shadow: 0px 1px 0px #777;
-	background: #ddd url('img/inputSprite.png') no-repeat 4px 5px;
-	background: url('img/inputSprite.png') no-repeat 4px 5px, -moz-linear-gradient( center bottom, rgb(225,225,225) 0%, rgb(215,215,215) 54%, rgb(173,173,173) 100% );
-	background:  url('img/inputSprite.png') no-repeat 4px 5px, -webkit-gradient( linear, left bottom, left top, color-stop(0, rgb(225,225,225)), color-stop(0.54, rgb(215,215,215)), color-stop(1, rgb(173,173,173)) );
+	font-size: 15px;
+	width: 300px;
+	padding: 12px 20px;
+    font-family: 'Roboto', sans-serif;
 	color:#333;
-	text-shadow:0px 1px 0px #FFF;
-  font-family: 'HelveticaNeue';
 }
 
 textarea {
-	-webkit-border-radius: 15px;
-	-moz-border-radius: 15px;
-	border-radius: 15px;
-	border:solid 1px #444;
-	font-size: 14px;
-	width: 270px;
-	padding: 7px 8px 7px 30px;
-	-moz-box-shadow: 0px 1px 0px #777;
-	-webkit-box-shadow: 0px 1px 0px #777;
-	background: #ddd url('img/inputSprite.png') no-repeat 4px 5px;
-	background: url('img/inputSprite.png') no-repeat 4px 5px, -moz-linear-gradient( center bottom, rgb(225,225,225) 0%, rgb(215,215,215) 54%, rgb(173,173,173) 100% );
-	background:  url('img/inputSprite.png') no-repeat 4px 5px, -webkit-gradient( linear, left bottom, left top, color-stop(0, rgb(225,225,225)), color-stop(0.54, rgb(215,215,215)), color-stop(1, rgb(173,173,173)) );
+   font-size: 15px;
+	width: 300px;
+	padding: 12px 20px;
+    font-family: 'Roboto', sans-serif;
 	color:#333;
-	text-shadow:0px 1px 0px #FFF;
-  font-family: 'HelveticaNeue';
 }
 
 contact.mes {
@@ -1095,7 +1079,7 @@ div.normCell{
 	display:inline;
 	float:left;
 	width: auto;
-	
+            font-family: 'Roboto', sans-serif;
 	height:auto;
 	vertical-align:middle;
 	
