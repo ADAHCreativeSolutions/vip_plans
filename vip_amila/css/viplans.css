@@ -102,7 +102,7 @@ font-family: 'Roboto', sans-serif;
 	margin:0;
 	padding:0;
 }
-p {
+p,table tr td {
 	font-family: 'Roboto', sans-serif;
 	font-size:14px;
 	line-height:1.7em;
@@ -268,7 +268,7 @@ ul {
 	font-family:Arial, Helvetica, sans-serif;
 	display: block;
 		font-size:13px;
-	padding: 11px 41px 10px 41px;
+	padding: 11px 41px 11px 41px;
 	color: #fff;
 	border-opacity:0;
 	text-decoration: none;
@@ -990,25 +990,31 @@ fieldset label.infield /* .infield label added by JS */ {
 /* search result open -new*/
 
 #SEARCH-RESULT {
-	border:1px solid #ffc000;
-	-webkit-border-radius: 8px;
-	-moz-border-radius: 8px;
-	border-radius: 8px;
-	width:310px;
-	height:380px;
+	width:300px;
+	height:420px;
 	float:left;
-	margin-right:17px;
+    background: #0a0a0a;
+    margin-right:20px;   -o-transition:.5s;
+-ms-transition:.5s;
+-moz-transition:.5s;
+-webkit-transition:.5s;
+transition:.5s;
 	
 }
+#SEARCH-RESULT:hover, #SEARCH-RESULT-RT:hover{
+  background: #181818;  -o-transition:.5s;
+-ms-transition:.5s;
+-moz-transition:.5s;
+-webkit-transition:.5s;
+transition:.5s;
+}
+
 #SEARCH-RESULT-RT {
-	border:1px solid #ffc000;
-	-webkit-border-radius: 8px;
-	-moz-border-radius: 8px;
-	border-radius: 8px;
-	width:310px;
-	height:380px;
-	float:right;
-	
+	width:300px;
+	height:420px;
+	float:left;    background: #0a0a0a;
+
+
 }
 #SEARCH-RESULT div.mid {
 	margin:15px;
@@ -1021,6 +1027,33 @@ fieldset label.infield /* .infield label added by JS */ {
 #SEARCH-RESULT div.right {
 	width:700px;
 	float:right;
+}
+.venue-text{
+  padding:20px;
+}
+.venue-text img.img-bdr{
+  width:260px;
+  height:130px;
+}
+.venue-text table{
+  margin-top:20px;
+}
+
+.venue-text table tr td{
+  padding:5px 10px 5px 0px;
+  vertical-align: top;
+}
+.venue-text table tr td img{
+  width:20px;
+  opacity:0.5;
+  filter:alpha(opacity=50);
+  }
+  .venue-text .button{
+    margin:20px 0px 0px 0px;
+  }
+
+.clear{
+  clear: both;
 }
 
 .img-bdr {border:1px solid #000;

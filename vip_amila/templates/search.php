@@ -15,7 +15,7 @@
 <div>&nbsp;</div>
 <div>
   <!-- begin search -->
-  <div id="search" style="z-index: 50000">
+  <div id="search" style="">
   <form name="search" action="index.php" method="POST">
     <input type="hidden" name="module" value="search" />
     <input type="hidden" name="task" value="search" />
@@ -41,7 +41,7 @@
     
     <div class="txt">Or</div>
     <div>
-      <input name="search[date]" type="text" id="datepicker" style="z-index: 5000" class="txt-box" placeholder="Date"/>
+      <input name="search[date]" type="text" id="datepicker" style="z-index: 50000" class="txt-box" placeholder="Date"/>
     </div>
     <div> 
       <button id="button" class="button">Search</button>
