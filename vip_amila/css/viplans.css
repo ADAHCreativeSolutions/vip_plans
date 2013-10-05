@@ -111,7 +111,7 @@ p,table tr td {
 	padding:0
 }
 .bold-txt {
-	font-family: 'helveticaneueltstd-lt';
+font-family: 'Roboto', sans-serif;
 	font-size:14px;
 	color:#fff;
 	margin:0;
@@ -245,6 +245,7 @@ ul {
 	border-radius: 6px;
 	overflow: hidden;
 	border:1px solid #ffc000;
+    background:url(../images/main_menu_back.png) center;
 
 	/*background-image:url(../images/nav-back.png);*/
 	background-repeat:repeat-x;
@@ -325,6 +326,7 @@ transition:.5s;
 	color:#fff;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-stroke: 0px;
+    padding-top:5px;
 }
 .txt-box {
 	font-family:Arial, Helvetica, sans-serif;
@@ -426,17 +428,17 @@ transition:.5s;
 }
 #newsletter div.txt {
 	text-align:center;
-	font-family: 'helveticaneueltstd-lt';
+font-family: 'Roboto', sans-serif;
 	font-size:20px;
 	color:#fff;
+    font-weight: 300;
 }
 .news-txt-box {
-	font-family: 'HelveticaNeue';
+font-family: 'Roboto', sans-serif;
 	font-size:14px;
 	width:384px;
 	height:24px;
-	border:1px solid #000;
-	padding-left:10px;
+	padding:10px 20px;
 	margin:10px 0 0 0;
 }
 /* News Letter area End ------------------------------------------------*/
@@ -459,7 +461,7 @@ transition:.5s;
 #footer div ul li.line {
 	float: left;
 	overflow: hidden;
-	font-family: 'helveticaneueltstd-lt';
+font-family: 'Roboto', sans-serif;
 	font-size:14px;
 	color:#4a4a4a;
 	display: block;
@@ -472,7 +474,7 @@ transition:.5s;
 #footer div ul a {
 	float: left;
 	overflow: hidden;
-	font-family: 'helveticaneueltstd-lt';
+font-family: 'Roboto', sans-serif;
 	font-size:14px;
 	color:#4a4a4a;
 	display: block;
@@ -482,6 +484,10 @@ transition:.5s;
 	-webkit-text-stroke: 0px;
 	margin-top:20px;
 }
+#footer div ul a:hover{
+  color:#000;
+}
+
 #footer div li {
 	float: left;
 }
@@ -722,11 +728,11 @@ fieldset label.infield /* .infield label added by JS */ {
 	padding-bottom:15px; clear:both;
 }
 #BUY {
-	border:1px solid #ffc000;
+
 	-webkit-border-radius: 8px;
 	-moz-border-radius: 8px;
 	border-radius: 8px;
-	padding:35px;
+
 }
 #BUY div.mid {
 	width:640px;
@@ -763,7 +769,7 @@ fieldset label.infield /* .infield label added by JS */ {
 	position: relative;
 	top: 1px;
 	float: left;
-	padding: 4px 10px;
+	padding: 8px 16px;
 	margin: 0px 1px 0px 0px;
 	font: bold 0.7em sans-serif;
 	list-style: none;
@@ -802,7 +808,7 @@ border-bottom-right-radius: 5px;
 -moz-border-radius-bottomleft: 5px;
 -webkit-border-bottom-left-radius: 5px;
 border-bottom-left-radius: 5px;
-	border:1px solid #ffc000;
+
 	background-color: #181818;
 	font-size:14px !important;
 	padding:10px;
@@ -1094,6 +1100,7 @@ div.normCell{
 	overflow:hidden;
 	width:970px;
 	margin:0 auto;
+    background:url(../images/imageFlowBack.jpg) center center no-repeat;
 }
 
 h1.special{

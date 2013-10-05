@@ -64,6 +64,7 @@ include 'templates/search.php';
     <input name="" type="text"  class="news-txt-box "/>
   </div>
   <div>
+  <p>&nbsp;</p>
     <div>
       <button id="button" class="button">Get Alerts!</button>
     </div>

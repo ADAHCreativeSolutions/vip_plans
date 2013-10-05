@@ -112,11 +112,12 @@
       <div>&nbsp;</div>
     </div>
 <div id="newsletter">
-      <div class="txt">Enter email for Londonâ€™s best night out alerts!</div>
+      <div class="txt">Enter email for London's best night out alerts!</div>
       <div>
     <input name="" type="text"  class="news-txt-box "/>
   </div>
       <div>
+      <p>&nbsp;</p>
     <div>
           <button id="button" class="button">Get Alerts!</button>
         </div>

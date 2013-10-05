@@ -44,6 +44,9 @@ domReady(function()
 	  ImageFlowID:'myImageFlow',
       startAnimation: true,
        imageFocusM: 1.4,
-                         startID:  3 
+                         startID:  3,
+                         captions:false,
+                         opacity:true
+
     });
 });

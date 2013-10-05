@@ -10,7 +10,7 @@
 
 <div class="info">
 <h1>Contact Us</h1>
-<table cellspacing="0" cellpadding="5">
+<table cellspacing="5" cellpadding="0">
     <tr>
         <td><img src="images/icon-phone.png" /></td>
         <td> +94 897 345 234</td>
@@ -29,7 +29,7 @@
 </table>
 
 
-
+  <div>&nbsp;</div>
 
 </div>
 
@@ -73,41 +73,31 @@
           <div class="normCell" style="width:4%">&nbsp;</div>
           <div class="normCell" style="width:71%"><input id="email3" name="email3" type="text" class="text" value="" placeholder="country" required /></div>
         </div>
-        <div class="tableRow">
-          <div class="normCell right-column" style="width:20%">&nbsp;</div>
-          <div class="normCell" style="width:4%">&nbsp;</div>
-          <div class="normCell" style="width:71%;text-align: center;">
 
-        <input type="submit" id="button3" class="reg-button" name="submit" value="Submit" />
-        <input type="reset" id="reset2" class="reg-button" name="reset" value="Reset" />
-      </div>
+
+
+         <div class="tableRow">
+          <div class="normCell right-column" style="width:20%"></div>
+          <div class="normCell" style="width:4%">&nbsp;</div>
+          <div class="normCell" style="width:71%"> <input type="submit" id="button3" class="reg-button" name="submit" value="Submit" />
+        <input type="reset" id="reset2" class="reg-button" name="reset" value="Reset" /></div>
         </div>
+
       </div>
 
     </fieldset>
   </form>
 
 </div>
-<div>&nbsp;</div>
-<div>&nbsp;</div>
 
- <div class="tableLike contact-form" style="width:100%">
-   <div class="tableRow">
-     <div class="normCell" style="width:100%;text-align: center;"><h4>Contact Details</h4></div>
-   </div>
-   <div class="tableRow">
-     <div class="normCell" style="width:100%;text-align: center;">
 
-     </div>
-   </div>
-   <div class="tableRow">&nbsp;</div>     
-    </div>
 <div id="newsletter">
       <div class="txt">Enter email for London&#39;s best night out alerts!</div>
       <div>
     <input name="" type="text"  class="news-txt-box "/>
   </div>
       <div>
+      <p>&nbsp;</p>
     <div>
           <button id="button" class="button">Get Alerts!</button>
         </div>
