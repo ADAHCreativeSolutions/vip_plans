@@ -440,7 +440,21 @@ font-family: 'Roboto', sans-serif;
 	height:24px;
 	padding:10px 20px;
 	margin:10px 0 0 0;
+    -o-transition:.5s;
+-ms-transition:.5s;
+-moz-transition:.5s;
+-webkit-transition:.5s;
+transition:.5s;
 }
+
+.news-txt-box:focus{
+  box-shadow:0px 0px 10px #fff; -o-transition:.5s;
+-ms-transition:.5s;
+-moz-transition:.5s;
+-webkit-transition:.5s;
+transition:.5s;
+}
+
 /* News Letter area End ------------------------------------------------*/
 
 #footer {
