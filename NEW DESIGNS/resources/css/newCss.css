@@ -318,8 +318,9 @@ padding:5px 0px 5px 5px;
 	z-index:1500;
 	width:930px;
 	padding:20px;
-	height:auto;
+	min-height:700px;
 	background:#fff;
+	display:none;
 	}
 #bookingPopup .plan{
 	position:relative;
@@ -367,6 +368,13 @@ padding:5px 0px 5px 5px;
 	padding-top:40%;
 	
 	}
+#floorPlan{
+	display:none;}
+#tableSize{
+	display:none;}
+#bookBottles{
+	display:none;}
+	
 #bookBottles .partySize tr td:nth-child(3){
 	color:#ffc000;font-size:18px;
 	font-weight:normal;

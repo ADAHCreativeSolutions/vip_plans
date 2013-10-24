@@ -4,6 +4,77 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>BOOKINGS</title>
 <link href="resources/css/newCss.css" type="text/css" rel="stylesheet" media="all" />
+
+<script type="text/javascript" src="resources/js/jquery-1.9.1.js"></script>
+
+<script type="text/javascript">
+var $j = jQuery.noConflict();
+
+$j(document).ready(function(){
+							
+$j(".plan").find("div").click(function(){
+	$j(".plan div").removeClass("active");								
+	$j(this).addClass("active");	
+});
+
+$j(".pick-your-area").click(function(){							 
+showPopup();
+return false;
+});
+$j(".closePopup").click(function(){							 
+	hidePopup();
+	return false;
+});
+$j("#floorPlan .cont").click(function(){
+							openNext("#tableSize")
+							return false;
+							
+});
+
+$j("#tableSize .cont").click(function(){
+							openNext("#bookBottles")
+							return false;
+							
+});
+
+$j("#tableSize .back").click(function(){
+							openNext("#floorPlan")
+							return false;
+							
+});
+
+$j("#bookBottles .cont, #bookBottles .skip").click(function(){
+							hidePopup();
+							return false;
+							
+});
+
+$j("#bookBottles .back").click(function(){
+					openNext("#tableSize");
+							return false;
+							
+});
+
+
+function showPopup(){
+	$j("#bookingPopup, #floorPlan").fadeIn(500);
+	
+	}
+function hidePopup(){
+	$j("#bookingPopup, #floorPlan, #tableSize, #bookBottles").fadeOut(500);
+	}
+	
+function openNext($jDivName){
+	$j("#floorPlan, #tableSize, #bookBottles").fadeOut(0);
+$j($jDivName).fadeIn(500);
+																
+}
+
+
+							
+							
+							});
+</script>
 </head>
 
 <body>
@@ -25,11 +96,11 @@
         
         </div>
         
-       <p style="text-align:center; font-weight:normal;"> <a id="size" href="#size" class="buttonClass">CONTINUE</a>
+       <p style="text-align:center; font-weight:normal;"> <a id="tSize" href="#tableSize" class="buttonClass cont">CONTINUE</a>
        </p>
         
         </div>
-        <div id="tableSize">
+<div id="tableSize">
 
     <h2>Size of Your Party</h2>
 	<p>In order to determine your table minimum please enter 
@@ -72,12 +143,13 @@ the size of your party</p>
         </tr>
       </table>
               <p>&nbsp;</p>
-     <p style="text-align:center; font-weight:normal;"> <a href="#" class="buttonClass">CONTINUE</a>
-    <a href="#" class="buttonClass">BACK</a>
+     <p style="text-align:center; font-weight:normal;"> 
+     <a href="#" class="buttonClass back">BACK</a>
+    <a href="#" class="buttonClass cont">CONTINUE</a>
     </p>
 
         </div>
-        <div id="bookBottles">
+<div id="bookBottles">
         <h2>Book Bottles</h2>
 	<p>Add number of bottles from each type your prefer
 (Optional)</p>
@@ -133,9 +205,9 @@ the size of your party</p>
         </tr>
       </table>
        <p style="text-align:center; font-weight:normal;"> 
-       <a id="size" href="#size" class="buttonClass">BACK</a>&nbsp;
-       <a id="size" href="#size" class="buttonClass">SKIP</a>
-       <a id="size" href="#size" class="buttonClass">CONTINUE</a>
+       <a id="size" href="#" class="buttonClass back">BACK</a>&nbsp;
+       <a id="size" href="#" class="buttonClass skip">SKIP</a>
+       <a id="size" href="#" class="buttonClass cont">CONTINUE</a>
        </p>
       <p>&nbsp;</p>
         </div>
