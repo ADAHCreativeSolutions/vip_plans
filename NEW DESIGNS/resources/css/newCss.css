@@ -1,0 +1,386 @@
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,500,700);
+*{
+	margin:0px;
+	padding:0px;
+}
+
+a img{
+  border:none;
+}
+
+body{
+	background:#000;
+	}
+p{
+	font-family: 'Roboto', sans-serif;}
+	.clear{
+		clear:both;
+	}
+#bodyContent{
+	position:relative;
+	width:970px;
+	margin:0 auto;
+	}
+
+#bodyContent h1{
+	text-align:center;
+	font-family: 'Roboto', sans-serif;
+	font-weight:300;
+	font-size:26px;
+	color:#ffc000;
+	padding:20px 0px;
+	}
+#bodyContent h2{
+		text-align:left;
+	font-family: 'Roboto', sans-serif;
+	font-weight:300;
+	font-size:26px;
+	color:#ffc000;
+	padding:20px 0px;
+	}
+#bodyContent h3{
+		text-align:left;
+	font-family: 'Roboto', sans-serif;
+	font-weight:300;
+	font-size:26px;
+	color:#ffc000;
+	padding:0px 0px;
+	}
+	
+	
+	#bodyContent h4{
+		text-align:right;
+	font-family: 'Roboto', sans-serif;
+	font-weight:300;
+	font-size:18px;
+	color:#ff8989;
+	padding:0px 0px;
+	}
+
+	
+#events{
+	position:relative;
+}
+#events .venueLogo{
+	width:180px;
+	margin:0 auto;
+	}
+#events .about-venue{
+	text-decoration:none;font-family: 'Roboto', sans-serif;
+	font-size:16px;
+	color:#ccc;
+	text-align:center;
+	display:block;
+	background:url(../images/i-icon.jpg) no-repeat left center;
+	padding:0px 0px 0px 25px;
+	width:96px;
+	margin:0 auto;
+	}
+#events .about-venue:hover{
+	color:#ffc000;
+	}
+#events ul.eventList li{
+  list-style: none;
+  	text-decoration:none;font-family: 'Roboto', sans-serif;
+	width:220px;
+    height: 340px;
+	float:left;
+	margin-right:25px;
+
+	}
+#events ul.eventList li:nth-child(4n){
+	margin-right:0px;
+    clear: right;}
+
+#events ul.eventList li p{
+    color:#b6b6b6;
+    text-align: center;
+  font-size: 16px;
+  margin-top:10px;
+}
+
+
+#venues{
+  position: relative;
+  
+  width:900px;
+  margin:0 auto;
+
+}
+
+#venues ul li{
+  float: left;
+  width:184px;
+  list-style: none;
+  margin-right:50px;
+  margin-bottom:50px;
+
+}
+
+
+#venues ul li:nth-child(4n){
+  clear: right; 	margin-right:0px;   }
+
+#venues ul li a{
+  display: block;
+}
+
+#venues ul li a img{
+  width:180px;
+  border:2px solid #fff;
+
+}
+#venues ul li a img:hover{
+              border:2px solid #ffc000;
+}
+
+
+#bookings{
+	position:relative;
+}
+
+#bookings .eventImg{
+	position:relative;
+	float:left;
+}
+#bookings .eventImg img{
+	width:300px;}
+#bookings .eventInfo{
+	position:relative;
+	float:right;
+	width:640px;
+
+	height:300px;}
+	
+#bookings .info tr td{
+	position:relative;
+	padding:5px 5px;
+	font-family: 'Roboto', sans-serif;
+	font-size:16px;
+	font-weight:300;
+	color:#b6b6b6;
+	
+	
+	}
+#bookings .info tr td:nth-child(2){
+	color:#ffc000;font-size:18px;
+	}
+#bookings .info tr:nth-child(2n){
+	background:#000;}
+	
+#bookings p{
+	color:#b6b6b6;
+	font-size:15px;
+	line-height:1.6em;
+	font-weight:300;}
+.pick-your-area{
+	display:block;
+	border-radius:6px;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	-ms-border-radius:6px;
+	-o-border-radius:6px;
+	color:#000;
+	height:24px;
+	width:160px;
+
+	padding:10px 0px 10px 50px;
+	margin-top:20px;
+	
+	text-decoration:none;font-family: 'Roboto', sans-serif;
+	background:url(../images/tick.png) center left no-repeat #ffc000;
+
+	
+	}
+.pick-your-area:hover{
+	background-color:#171717;
+	color:#b6b6b6;
+	}
+	
+.buttonClass{
+	display:inline-block;
+	
+	border-radius:6px;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	-ms-border-radius:6px;
+	-o-border-radius:6px;
+	color:#000;
+	height:24px;
+	width:150px;
+	text-align:center;
+
+	padding:10px 10px 10px 10px;
+	margin:0 auto;
+	
+	text-decoration:none;
+	font-family: 'Roboto', sans-serif;
+	background:#ffc000;
+
+	
+	}
+.buttonClass:hover{
+	background-color:#171717;
+	color:#b6b6b6;
+	}
+#bookings .bookTable{
+	float:left;
+	}
+#bookings .yourChoice{
+	float:right;
+	padding:70px 0px 0px 0px;}
+#bookings .yourChoice h4 img{
+	float:left;
+	}
+
+#bookings .yourChoice p.tablePrice{
+	text-align:right;
+	font-size:16px;}
+
+.bookTickets{
+	border-bottom:thin solid #494949;
+	border-top:thin solid #494949;
+	padding:20px 20px;
+	position:relative;
+	height:auto;
+	
+	
+	}
+.bookTickets .arrow{
+	width:36px;
+	height:36px;
+	background:url(../images/arrow_down.jpg) no-repeat;
+	position:absolute;
+	right:00px;
+	cursor:pointer;
+	top:30px;
+	}
+.style-select{
+	width:100px;
+	overflow:hidden;
+	background:url(../images/select-arrow.png) 75px 11px no-repeat #222;
+	}
+	
+.style-select2{
+	width:680px;
+	overflow:hidden;
+	background:url(../images/select-arrow.png) 650px 22px no-repeat #222;
+	margin:0 auto;
+	margin-bottom:10px;
+	
+	}
+.style-select2 select{
+		font-family: 'Roboto', sans-serif;
+	background: transparent;
+-webkit-appearance: none;
+border:none;font-size:16px;
+width:700px;
+height:50px;
+padding:13px 0px 5px 5px;
+	color:#b6b6b6;
+
+}
+.style-select select{
+		font-family: 'Roboto', sans-serif;
+		font-size:16px;
+	background: transparent;
+-webkit-appearance: none;
+border:none;
+width:150px;
+height:30px;
+padding:5px 0px 5px 5px;
+	color:#b6b6b6;
+}
+
+.partySize{
+	position:relative;
+	width:100%;
+	margin:0 auto;
+	}
+.partySize tr td{
+		position:relative;
+	padding:10px 10px;
+	font-family: 'Roboto', sans-serif;
+	font-size:14px;
+	font-weight:300;
+	color:#b6b6b6;
+	border-bottom:thin solid #ccc;
+	background:#0c0c0c;}
+.partySize tr td:nth-child(2){
+	color:#ffc000;font-size:18px;
+	}
+.partySize tr:nth-child(even) td{
+	background:#3c3c3c;
+}
+#bookingPopup{
+	position:absolute;
+	z-index:1500;
+	width:930px;
+	padding:20px;
+	height:auto;
+	background:#fff;
+	}
+#bookingPopup .plan{
+	position:relative;
+	background-size:contain;
+	margin:0 auto;
+	width:680px;
+	height:500px;
+	background:url(../images/plans.jpg) center center no-repeat;}
+
+#bookingPopup h2{
+	font-size:30px;
+	padding:0px;
+	color:#555555;
+	margin-bottom:5px;
+	text-align:center;}
+#bookingPopup p{
+	text-align:center;
+	font-size:16px;
+		color:#555555;
+	}
+#bookingPopup .closePopup{
+	background:url(../images/close_popup.png) center center no-repeat;
+	width:40px;
+	height:40px;
+	cursor:pointer;
+	position:absolute;
+	right:20px;
+	top:20px;}
+#bookingPopup .plan div.active{
+	background:#333;opacity:0.9;
+
+}
+#bookingPopup .plan div.active p{
+		color:#fff;
+	}
+#bookingPopup .plan div{
+	background:url(../images/yello-trans.png);
+	cursor:pointer;}
+
+#bookingPopup .plan div p{
+	font-size:14px;
+	font-weight:bold;color:#000;
+
+	text-align:center;	font-family: 'Roboto', sans-serif;
+	padding-top:40%;
+	
+	}
+#bookBottles .partySize tr td:nth-child(3){
+	color:#ffc000;font-size:18px;
+	font-weight:normal;
+	}
+
+#bookBottles .partySize tr td:nth-child(2){
+		color:#b6b6b6;font-size:14px;
+		text-transform:uppercase;
+	}
+#bookBottles input[type="text"]{
+	background:#222;
+	height:30px;
+	color:#ccc;
+	width:100px;
+	text-align:center;
+	border:none;
+	}
