@@ -211,7 +211,7 @@ p{
 	width:150px;
 	text-align:center;
 
-	padding:10px 10px 10px 10px;
+	padding:8px 10px 10px 10px;
 	margin:0 auto;
 	
 	text-decoration:none;
@@ -256,6 +256,8 @@ p{
 	cursor:pointer;
 	top:30px;
 	}
+.bookTickets table{
+	display:none;}
 .style-select{
 	width:100px;
 	overflow:hidden;

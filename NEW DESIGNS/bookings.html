@@ -17,6 +17,10 @@ $j(".plan").find("div").click(function(){
 	$j(this).addClass("active");	
 });
 
+$j(".bookTickets .arrow").click(function(){
+$j(".bookTickets table").fadeToggle();
+});
+
 $j(".pick-your-area").click(function(){							 
 showPopup();
 return false;
@@ -90,7 +94,7 @@ $j($jDivName).fadeIn(500);
 <p class="textCenter">Mouse Over to View the Table Area</p>
 <p>&nbsp;</p>
 		<div class="plan">
-        	<div class="active" style="position:absolute; width:200px; height:200px; left:200px;"><p>VIP BOOTH</p></div>
+        	<div style="position:absolute; width:200px; height:200px; left:200px;"><p>VIP BOOTH</p></div>
             
             <div style="position:absolute; width:100px; height:100px;top:100px;"><p>BAR COUCH</p></div>
         
@@ -173,9 +177,9 @@ the size of your party</p>
         </tr>
         
         	 	<tr>
-        <td><img src="resources/images/bookingPage_07.png" /></td>
+        <td><img src="resources/images/bookingPage_11.png" /></td>
             <td>Brand Name</td>
-            <td>$16</td>
+            <td>$20</td>
             <td><input type="text" value="10" /></td>
             <td><a href="#" class="buttonClass">Add to Cart</a></td>
         </tr>
@@ -183,27 +187,28 @@ the size of your party</p>
         <tr>
         <td><img src="resources/images/bookingPage_07.png" /></td>
             <td>Brand Name</td>
-            <td>$16</td>
+            <td>$24</td>
             <td><input type="text" value="10" /></td>
             <td><a href="#" class="buttonClass">Add to Cart</a></td>
         </tr>
         
         <tr>
-        <td><img src="resources/images/bookingPage_07.png" /></td>
+        <td><img src="resources/images/bookingPage_11.png" /></td>
             <td>Brand Name</td>
-            <td>$16</td>
+            <td>$30</td>
             <td><input type="text" value="10" /></td>
             <td><a href="#" class="buttonClass">Add to Cart</a></td>
         </tr>
         
         <tr>
-        <td><img src="resources/images/bookingPage_07.png" /></td>
+        <td><img src="resources/images/bookingPage_19.png" /></td>
             <td>Brand Name</td>
-            <td>$16</td>
+            <td>$40</td>
             <td><input type="text" value="10" /></td>
             <td><a href="#" class="buttonClass">Add to Cart</a></td>
         </tr>
       </table>
+        <p>&nbsp;</p>
        <p style="text-align:center; font-weight:normal;"> 
        <a id="size" href="#" class="buttonClass back">BACK</a>&nbsp;
        <a id="size" href="#" class="buttonClass skip">SKIP</a>
